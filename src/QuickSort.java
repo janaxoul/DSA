@@ -3,13 +3,11 @@ public class QuickSort {
         int[] arr={56, 34,12,3,43, 67,53, 223, 54, 44, 5, 0};
         int n= arr.length;
         quicksort(arr, 0, n - 1);
-
         for (int val : arr) {
             System.out.print(val + " ");
         }
     }
     public static int partition(int[] arr, int low, int high){
-        int pivot=arr[high];
         int i= low-1;
         for (int j=low;j<=high;j++){
             if (arr[j]<arr[high]){
