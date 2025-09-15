@@ -1,3 +1,5 @@
+package Basics;
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr={56, 34,12,3,43, 67,53, 223, 54, 44, 5, 0};
