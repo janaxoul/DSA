@@ -1,3 +1,4 @@
+package Basics;
 
 public class LinearBinarySearch {
     public static void main(String[] args) {
