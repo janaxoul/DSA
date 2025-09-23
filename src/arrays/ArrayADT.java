@@ -12,5 +12,12 @@ public interface ArrayADT<T> {
     int indexOf(T value);
     int LastIndexOf(T value);
     boolean isEmpty();
+    double sum();
+    double average();
+    void reverse();
+    void insertInSorted(T value);
+    boolean isSorted();
+    void reArrange();
+
 
 }
