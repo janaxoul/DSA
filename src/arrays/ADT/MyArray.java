@@ -1,4 +1,4 @@
-package arrays;
+package arrays.ADT;
 
 public class MyArray<T extends Number> implements ArrayADT<T> {
     private Object[] data;
@@ -8,7 +8,7 @@ public class MyArray<T extends Number> implements ArrayADT<T> {
         length=0;
     }
     public void swap(Object[] arr, int a, int b){
-        T temp= (T) arr[a];
+        T temp= (T)arr[a];
         arr[a]=arr[b];
         arr[b]= temp;
     }
@@ -72,7 +72,7 @@ public class MyArray<T extends Number> implements ArrayADT<T> {
     @Override
     public void display() {
         for(int i=0; i<length;i++){
-            System.out.println(data[i]);
+            System.out.print(data[i]+",");
         }
     }
 
@@ -166,6 +166,4 @@ public class MyArray<T extends Number> implements ArrayADT<T> {
             }
         }
     }
-
-
 }

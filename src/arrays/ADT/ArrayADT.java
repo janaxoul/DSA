@@ -1,4 +1,4 @@
-package arrays;
+package arrays.ADT;
 
 public interface ArrayADT<T> {
     void insert(int index,T value);
